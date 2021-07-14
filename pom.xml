@@ -28,4 +28,11 @@
      <version>20210307</version>
 	</dependency>
   </dependencies>
+  
+  
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+  <sonar.projectKey>piercirocaliandro_isw2-deliverable12</sonar.projectKey>
+    <sonar.organization>piercirocaliandro</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </project>
