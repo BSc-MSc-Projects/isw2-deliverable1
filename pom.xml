@@ -13,4 +13,10 @@
 	</dependency>
   </dependencies>
   
+  <properties>
+    <sonar.projectKey>piercirocaliandro_isw2-deliverable12</sonar.projectKey>
+    <sonar.organization>piercirocaliandro</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
+  
 </project>
