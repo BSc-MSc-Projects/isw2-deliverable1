@@ -114,12 +114,12 @@ public class RetrieveTicktsId {
 		for(Integer i : values) {
 			mean += i;
 		}
-		mean = (double)mean/values.size();
+		mean = mean/values.size();
 		
 		for(Integer i : values) {
 			variance += (i - mean)*(i - mean);
 		}
-		variance = (double)variance/values.size();
+		variance = variance/values.size();
 		
 		
 		Double lowerLim = mean - 3*Math.sqrt(variance);
